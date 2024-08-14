@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/LengthEqualToK.java" afterDir="false" />
+    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="LengthEqualToK">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxLenthOfOrderedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +20,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2keCFbNQGC1p2k5IC9Mu2is9hCE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +43,7 @@
   "keyToString": {
     "Application.LengthEqualToK.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxLenthOfOrderedArray.executor": "Run",
     "Application.Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -49,7 +51,7 @@
     "onboarding.tips.debug.path": "/Users/shivampunia/dev/repo/JavaRepo/Data-Structure-Problems/src/main/java/com/DS/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LengthEqualToK">
+  <component name="RunManager" selected="Application.MaxLenthOfOrderedArray">
     <configuration name="LengthEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.LengthEqualToK" />
       <module name="Data-Structure-Problems" />
@@ -76,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxLenthOfOrderedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.MaxLenthOfOrderedArray" />
+      <module name="Data-Structure-Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.Sum" />
       <module name="Data-Structure-Problems" />
@@ -91,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxLenthOfOrderedArray" />
         <item itemvalue="Application.LengthEqualToK" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.Main" />
@@ -106,7 +122,20 @@
       <option name="presentableId" value="Default" />
       <updated>1723634552995</updated>
     </task>
+    <task id="LOCAL-00001" summary="LengthEqualToK">
+      <option name="closed" value="true" />
+      <created>1723635002926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635002926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LengthEqualToK" />
+    <option name="LAST_COMMIT_MESSAGE" value="LengthEqualToK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -118,8 +147,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/LengthEqualToK.java</url>
-          <line>24</line>
+          <line>22</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxLenthOfOrderedArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="Max length of sub-array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxSumWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NextDoublicateSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NumberOfTriangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/sorting/MapSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +29,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "workwithshivi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;workwithshivi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/workwithshivi/Data-Structure-Problems.git",
-    "accountId": "5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/workwithshivi/Data-Structure-Problems.git&quot;,
+    &quot;accountId&quot;: &quot;5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2keCFbNQGC1p2k5IC9Mu2is9hCE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +60,7 @@
     "Application.NumberOfTriangles.executor": "Debug",
     "Application.Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -172,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723640147173</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Max length of sub-array">
+      <option name="closed" value="true" />
+      <created>1755758968347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755758968347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,11 +211,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxSumWindow.java</url>
           <line>20</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/DS/sorting/MapSorting.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

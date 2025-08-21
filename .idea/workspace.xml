@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="LengthEqualToK">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxLenthOfOrderedArray.java" afterDir="false" />
+    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="Max length of sub-array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxSumWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NextDoublicateSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NumberOfTriangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/sorting/MapSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "workwithshivi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/workwithshivi/Data-Structure-Problems.git",
+    "accountId": "5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -43,34 +58,26 @@
   "keyToString": {
     "Application.LengthEqualToK.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapSorting.executor": "Run",
     "Application.MaxLenthOfOrderedArray.executor": "Run",
+    "Application.MaxSumWindow.executor": "Debug",
+    "Application.NextDoublicateSubArray.executor": "Run",
+    "Application.NumberOfTriangles.executor": "Debug",
     "Application.Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/shivampunia/dev/repo/JavaRepo/Data-Structure-Problems/src/main/java/com/DS/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxLenthOfOrderedArray">
-    <configuration name="LengthEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.LengthEqualToK" />
+  <component name="RunManager" selected="Application.MapSorting">
+    <configuration name="MapSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.sorting.MapSorting" />
       <module name="Data-Structure-Problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.Main" />
-      <module name="Data-Structure-Problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DS.*" />
+          <option name="PATTERN" value="com.DS.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,8 +98,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.Sum" />
+    <configuration name="MaxSumWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.MaxSumWindow" />
+      <module name="Data-Structure-Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDoublicateSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.NextDoublicateSubArray" />
+      <module name="Data-Structure-Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.NumberOfTriangles" />
       <module name="Data-Structure-Problems" />
       <extension name="coverage">
         <pattern>
@@ -106,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapSorting" />
+        <item itemvalue="Application.MaxSumWindow" />
+        <item itemvalue="Application.NumberOfTriangles" />
+        <item itemvalue="Application.NextDoublicateSubArray" />
         <item itemvalue="Application.MaxLenthOfOrderedArray" />
-        <item itemvalue="Application.LengthEqualToK" />
-        <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,21 +164,25 @@
       <option name="project" value="LOCAL" />
       <updated>1723635002926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Max length of sub-array">
+      <option name="closed" value="true" />
+      <created>1723640147173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723640147173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LengthEqualToK" />
-    <option name="LAST_COMMIT_MESSAGE" value="LengthEqualToK" />
+    <MESSAGE value="Max length of sub-array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max length of sub-array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/DS/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/LengthEqualToK.java</url>
           <line>22</line>
@@ -152,10 +190,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxLenthOfOrderedArray.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NumberOfTriangles.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/NumberOfTriangles.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DS/slidingWindowProblems/MaxSumWindow.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DS/sorting/MapSorting.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr[last]" language="JAVA" />
+        <watch expression="arr[first]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

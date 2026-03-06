@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="Char Array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/IntegerArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment=" Array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DS/array/CharDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/CharDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DS/array/CharacterArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/CharacterArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DS/array/IntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/IntegerArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +97,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IntegerArray">
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.array.Array1" />
+  <component name="RunManager" selected="Application.ArrayListDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.array.ArrayListDemo" />
       <module name="Data-Structure-Problems" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.IntegerArray" />
         <item itemvalue="Application.CharDemo" />
         <item itemvalue="Application.CharacterArray" />
         <item itemvalue="Application.MapSorting" />
-        <item itemvalue="Application.Array1" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772782129623</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" Array">
+      <option name="closed" value="true" />
+      <created>1772792445741</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772792445741</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,7 +293,8 @@
     <MESSAGE value="Max length of sub-array" />
     <MESSAGE value="README.md" />
     <MESSAGE value="Char Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Char Array" />
+    <MESSAGE value=" Array" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

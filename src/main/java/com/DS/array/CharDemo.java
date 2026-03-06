@@ -25,6 +25,5 @@ public class CharDemo {
         System.out.println(arr3[0]+arr3[1]);
 
 
-
     }
 }

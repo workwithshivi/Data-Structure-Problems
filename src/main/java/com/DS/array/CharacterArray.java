@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-
 public class CharacterArray {
 
     // ─────────────────────────────────────────────
@@ -15,7 +14,11 @@ public class CharacterArray {
 
         // Method 1: Declare then assign
         char[] arr1 = new char[5];
-        arr1[0] = 'H'; arr1[1] = 'e'; arr1[2] = 'l'; arr1[3] = 'l'; arr1[4] = 'o';
+        arr1[0] = 'H';
+        arr1[1] = 'e';
+        arr1[2] = 'l';
+        arr1[3] = 'l';
+        arr1[4] = 'o';
         System.out.println("Method 1 (declare then assign): " + new String(arr1));
 
         // Method 2: Inline initialization
@@ -154,7 +157,10 @@ public class CharacterArray {
         char search = 'v';
         int foundAt = -1;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == search) { foundAt = i; break; }
+            if (arr[i] == search) {
+                foundAt = i;
+                break;
+            }
         }
         System.out.println("Search '" + search + "' found at index: " + foundAt);
 

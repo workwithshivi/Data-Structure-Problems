@@ -18,6 +18,15 @@ public class CharDemo {
         System.out.println(str2);
 
 
+        //When a character works with mathematical operators, it behaves as an integer i.e. ASCII value
+        char[] arr3 = {'1','2','3'};
+        System.out.println(arr3[1]);
+        System.out.println((int)arr3[1]);
+        System.out.println(arr3[0]+arr3[1]);
 
+        char c = 'A';
+        int n = c;
+        //it will print the ASCII value.
+        System.out.println(n);
     }
 }

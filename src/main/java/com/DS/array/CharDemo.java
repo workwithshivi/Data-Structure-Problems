@@ -24,5 +24,9 @@ public class CharDemo {
         System.out.println((int)arr3[1]);
         System.out.println(arr3[0]+arr3[1]);
 
+        char c = 'A';
+        int n = c;
+        //it will print the ASCII value.
+        System.out.println(n);
     }
 }

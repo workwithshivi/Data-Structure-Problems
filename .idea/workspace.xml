@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="Char Array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/CharDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DS/array/CharDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/CharDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +39,22 @@
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {}
 }]]></component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/workwithshivi/Data-Structure-Problems.git&quot;,
-    &quot;accountId&quot;: &quot;5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/workwithshivi/Data-Structure-Problems.git",
+    "accountId": "5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "workwithshivi",
+    "repository": "Data-Structure-Problems"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -75,7 +86,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/updates",
+    "git-widget-placeholder": "#1 on feature/updates",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/shivampunia/dev/repo/JavaRepo/Data-Structure-Problems/src/main/java/com/DS/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -229,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772778522234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Char Array">
+      <option name="closed" value="true" />
+      <created>1772780235046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780235046</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

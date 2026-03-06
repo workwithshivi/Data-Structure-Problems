@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82e70c36-cfbf-49c7-bdc5-b4723bab1181" name="Changes" comment="README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/1 Complexity.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DS/array/CharacterArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +42,24 @@
     &quot;accountId&quot;: &quot;5ce6eab2-aaa8-4aeb-9341-b2ca215ab36b&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2keCFbNQGC1p2k5IC9Mu2is9hCE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array1.executor": "Run",
+    "Application.CharacterArray.executor": "Run",
     "Application.LengthEqualToK.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapSorting.executor": "Run",
@@ -61,14 +69,42 @@
     "Application.NumberOfTriangles.executor": "Debug",
     "Application.Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/shivampunia/dev/repo/JavaRepo/Data-Structure-Problems/src/main/java/com/DS/Main.java"
+    "onboarding.tips.debug.path": "/Users/shivampunia/dev/repo/JavaRepo/Data-Structure-Problems/src/main/java/com/DS/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapSorting">
+  <component name="RunManager" selected="Application.CharacterArray">
+    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.array.Array1" />
+      <module name="Data-Structure-Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DS.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DS.array.CharacterArray" />
+      <module name="Data-Structure-Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DS.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DS.sorting.MapSorting" />
       <module name="Data-Structure-Problems" />
@@ -82,34 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLenthOfOrderedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.MaxLenthOfOrderedArray" />
-      <module name="Data-Structure-Problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxSumWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.MaxSumWindow" />
-      <module name="Data-Structure-Problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DS.slidingWindowProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextDoublicateSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DS.slidingWindowProblems.NextDoublicateSubArray" />
       <module name="Data-Structure-Problems" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +146,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharacterArray" />
         <item itemvalue="Application.MapSorting" />
+        <item itemvalue="Application.Array1" />
         <item itemvalue="Application.MaxSumWindow" />
         <item itemvalue="Application.NumberOfTriangles" />
-        <item itemvalue="Application.NextDoublicateSubArray" />
-        <item itemvalue="Application.MaxLenthOfOrderedArray" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755762541044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1755770319884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755770319884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1755776564466</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755776564466</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
